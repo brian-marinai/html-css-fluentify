@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* parte header */
+.centratura{
+  padding: 0 10%;
+}
+
+header{
+  height: 450px;
+  background-color: rgb(65, 105, 225);
+  background-image: url("../img/fluentify-jumbo.png");
+  background-position: right bottom;
+  background-size: 45%;
+  background-repeat: no-repeat;
+
+}
+
+.navigation{
+  padding-top: 30px;
+  padding-left: 185px;
+}
+
+.logo{
+  padding-top: 35px;
+  float: left;
+}
+
+
+.menu li{
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.button1{
+  background-color: rgb(65, 105, 225);
+  border: solid;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.spazio{
+  margin-left: 100px;
+}
+
+
+.scritta{
+  float: left;
+  padding-top: 100px;
+}
+
+
+.scritta p{
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.scritta .button2{
+  margin-top: 30px;
+}
+
+.sottoheader{
+  position: relative;
+  height: 200px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+}
+
+.titoli{
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titoli h3{
+  color: gray;
+  margin-top: 20px;
+}
+
+
+
+/* parte principale */
+
+/* contenitore1 */
+.contenitore::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore{
+  margin-bottom: 10px;
+}
+/* sx */
+
+.partesx{
+  float: left;
+  width: 30%;
+  /* debug */
+  height: 300px;
+
+}
+
+.sx1{
+  height: 200px;
+  background-image: url("../img/fluentify-piano.svg");
+  background-size: 30%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.sx1 h2{
+  padding-top: 50px;
+  text-align: center;
+  color: #4CAF50;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+
+/* mid */
+
+.partemid{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* debug */
+  background-color: lightgray;
+  height: 300px;
+}
+/* dx */
+.partedx{
+  float: right;
+  width: 30%;
+  /* debug */
+  height: 300px;
+  background-color: lightgray;
+}
+
+/* contenitore2 */
+
+.sezione2sx{
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+  /* debug */
+  height: 300px;
+  background-color: lightgray;
+  }
+
+  .sezione2dx{
+    float: right;
+    width: 45%;
+    /* debug */
+    height: 300px;
+    background-color: lightgray;
+  }
+
+  /* parte footer */
+
+  .footer{
+    height: 200px;
+    background-color: lightgray;
+  }
