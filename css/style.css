@@ -96,7 +96,7 @@ header{
   position: relative;
   height: 200px;
   background-color: lightgray;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .titoli{
@@ -128,30 +128,48 @@ header{
 
 .contenitore{
   margin-bottom: 10px;
+  border-bottom-style: solid;
+  border-color: gray;
+  border-width: 2px;
 }
 /* sx */
 
 .partesx{
+  margin-bottom: 50px;
   float: left;
   width: 30%;
-  /* debug */
-  height: 300px;
-
 }
 
 .sx1{
-  height: 200px;
-  background-image: url("../img/fluentify-piano.svg");
-  background-size: 30%;
-  background-position: top;
-  background-repeat: no-repeat;
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: gray;
 }
 
-.sx1 h2{
+.contenitore p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: gray;
+}
+
+.contenitore .img{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.contenitore h2{
   padding-top: 50px;
   text-align: center;
   color: #4CAF50;
-  font-size: 18px;
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -165,17 +183,27 @@ header{
   width: 30%;
   margin-left: 5%;
   margin-right: 5%;
-  /* debug */
-  background-color: lightgray;
-  height: 300px;
 }
+
+.mid1{
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: gray;
+}
+
 /* dx */
+
 .partedx{
   float: right;
   width: 30%;
-  /* debug */
-  height: 300px;
-  background-color: lightgray;
+}
+
+.dx1{
+  padding-bottom: 20px;
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: gray;
 }
 
 /* contenitore2 */
@@ -185,21 +213,33 @@ header{
   width: 45%;
   margin-right: 5%;
   /* debug */
+  height: 600px;
+  }
+
+.sx2 img{
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sezione2dx{
+  float: right;
+  width: 45%;
+  /* debug */
   height: 300px;
-  background-color: lightgray;
-  }
+}
 
-  .sezione2dx{
-    float: right;
-    width: 45%;
-    /* debug */
-    height: 300px;
-    background-color: lightgray;
-  }
+.sezione2dx h2{
+  margin-top: 20px;
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+}
 
-  /* parte footer */
-
-  .footer{
-    height: 200px;
-    background-color: lightgray;
-  }
+.sezione2dx p{
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: gray;
+}
